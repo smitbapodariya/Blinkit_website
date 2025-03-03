@@ -1,0 +1,272 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    align-items: center;
+    gap: 40px;
+}
+.HeaderLeft{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    padding: 24px 30px;
+    border-right:1px solid #ccc;
+}
+
+.HeaderAddress{
+    padding: 0px 50px;
+}
+.HeaderAddress h3{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.HeaderAddress p{
+    font-size: 17px;
+}
+.Searchbox{
+    flex-grow: 1;
+    display: flex;
+    background-color: #f8f8f8;
+    border: 1px solid #f4f4f4;
+    border-radius: 15px;
+}
+.Searchbox input{
+    flex-grow: 1;
+    background-color: transparent;
+    border: none;
+} 
+.Searchbox input:focus{
+    outline: none;
+}
+.Searchbox button{
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+}
+.Searchbox button i0{
+    height: 50px;
+}
+.HeaderBtn{
+     display: flex;
+     margin-right: 40px;
+     gap: 40px;
+}
+.HeaderBtn button{
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+}
+.HeaderBtn button:last-child{
+    background-color: #0c831f;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.BannerSection{
+    margin: 0px auto;
+    max-width: 1900px;
+}
+.BannerSection img{
+    width: 100%;
+}
+.OrderBanner{
+    display: flex;
+    max-width: 1900px;
+    margin: auto;
+}
+.OrderBannerItem{
+    flex-basis: 27%;
+    margin: 1%;
+}
+.OrderBannerItem img{
+    width: 100%;
+}
+
+.CategorySecction{
+    max-width: 1900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.CategoryItem{
+    flex-basis: 10%;
+}
+.CategoryItem img{
+    width: 100%;
+}
+.ProductSection{
+    max-width: 1900px;
+    margin: auto;
+    padding: 30px 0px 0px 0px;
+}
+.HeadingRow{
+    width: 100%;
+   display: flex;
+    justify-content: space-between;
+}
+.HeadingRow h2{
+    font-size: 22px;
+}
+.HeadingRow a{
+    color: #328839;
+    font-size: 18px;
+}
+.ProductRow{
+    width: 100%;
+    display: flex;
+    margin: 30px 0px 0px 0px;
+    gap: 2%;
+}
+.ProductItem{
+    flex-basis: 15%;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 2px #ccc;
+}
+.ProductImg{
+    text-align: center;
+    padding: 15px;
+}
+.ProductImg img{
+    width: 70%;
+}
+.ProductImg p img {
+    width: 15px;
+}
+
+.ProductImg p{
+    background-color: #f8f8f8;
+    display: flex;
+    width: 60px;
+    gap: 5px;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    text-align: center;
+}
+.ProductContant{
+    padding: 15px;
+    padding-top: 0px;
+}
+.ProductContant h3{
+    font-size: 14px;
+    margin-bottom: 15px;
+    height: 35px;
+}
+.ProductContant p{
+    font-size: 14px;
+    color: #848080;
+}
+.btn-price-outer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    align-items: center;
+}
+.btn-price-outer button{
+    background-color: #f7fff9;
+    padding: 5px 15px;
+    border: 1px solid #328839;
+    border-radius: 10px;
+}
+
+footer{
+    padding: 40px 0px 0px 0px;
+    margin-top: 80px;
+}
+.FooterMid{
+    max-width: 1900px;
+    margin: auto;
+}
+.FooterMidRow1{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+}
+.Row1Left{
+    flex-basis: 30%; 
+}
+.Row1Left h3{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.Row1Right{
+    flex-basis: 70%;
+}
+.UsfullLinks{
+    display: flex;
+
+}
+.UsfullLinks ul{
+    flex-basis: 33%;
+    list-style: none;
+}
+.UsfullLinks ul li a{
+    font-size: 14px;
+    margin-bottom: 15px;
+    display: block;
+    color: rgb(102,102,102);
+    font-size: 20px;
+}
+.CategoruHeadingRow{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 15px;
+}
+.CategoruHeadingRow h3{
+    font-size: 25px;
+}
+.CategoruHeadingRow a{
+    font-size: 20px;
+    color: #328839;
+}
+.FooterMidRow3 p{
+    color: rgb(102,102,102);
+    padding: 20px 0px;
+    font-size: 20px;
+    line-height: 20px;
+}
+.FooterMidRow2{
+    background-color: #fcfcfc;
+    width: 100%;    
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+}
+.FooterMidRow2 p{
+    flex-basis: 40%;
+    text-align: center;
+    font-size: 18px;
+}
+.AppIcons{
+    flex-basis: 30%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.SLinks{
+    display: flex;
+    gap: 10px;
+}
+.SLinks i{
+width: 50px;
+height: 50px;
+background-color: black;
+color: white;
+justify-content: center;
+border-radius: 50px;
+display: flex;
+align-items: center;
+}
